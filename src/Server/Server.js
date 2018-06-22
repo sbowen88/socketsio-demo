@@ -19,5 +19,5 @@ io.sockets.on('connection', function(socket){
 
     //Disconnect 
     connections.splice(connections.indexOf(socket),1)
-    console.log('Disconnect: %s sockets connected', connections.length )
+    console.log('Disconnect: %s sockets connected', connections.length)
 })
